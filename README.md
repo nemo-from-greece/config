@@ -1,0 +1,1 @@
+Neovim config is built on [lazy.nvim](https://github.com/folke/lazy.nvim), so long as you have lazy.nvim up and working, Snippets/ and Plugins/ can simply be inserted into your config in the same places they are in mine.
