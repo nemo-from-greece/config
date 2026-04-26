@@ -19,3 +19,8 @@ window-rule {
     opacity 1.0
   }
 }
+
+window-rule {
+  match app-id="org.gnome.Nautilus"
+  open-floating true
+}

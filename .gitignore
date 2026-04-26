@@ -16,6 +16,7 @@ noctalia/plugins/**
 noctalia/colors.json
 noctalia/plugins.json
 nvim/*
+gh/**
 nvim/lua/config/**
 pulse/**
 user-dirs.dirs
