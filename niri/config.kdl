@@ -1,0 +1,24 @@
+include "input.kdl"
+include "outputs.kdl"
+
+layout { // Would go in layout.kdl, except that moving this module there breaks the border.
+  gaps 5
+  center-focused-column "never"
+  default-column-width { proportion 0.5; }
+
+  focus-ring {
+    off
+  }
+
+  border {
+    // off
+    width 1
+    active-color "#ffc87f"
+    inactive-color "#505050"
+  }
+}
+
+include "misc.kdl"
+include "rules.kdl"
+include "keybinds.kdl"
+
