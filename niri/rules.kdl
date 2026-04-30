@@ -37,3 +37,8 @@ window-rule {
   max-width 640
   max-height 360
 }
+
+window-rule {
+  match title="Mindycalc"
+  open-floating true
+}
