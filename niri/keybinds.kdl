@@ -17,6 +17,8 @@ binds {
   Mod+Q { close-window; }
   Mod+F { maximize-column; }
   Mod+M { fullscreen-window; }
+  Mod+Minus { set-column-width "-10%"; }
+  Mod+Equal { set-column-width "+10%"; }
 
   // Navigation
   Mod+H { focus-column-left; }
