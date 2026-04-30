@@ -30,3 +30,10 @@ window-rule {
   match title="Mindustry"
   open-fullscreen true
 }
+
+window-rule {
+  match title="Picture-in-Picture"
+  open-floating true
+  max-width 640
+  max-height 360
+}
