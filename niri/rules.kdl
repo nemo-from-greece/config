@@ -18,7 +18,6 @@ window-rule {
   popups {
     opacity 1.0
   }
-  opacity 1.0
 }
 
 window-rule {
