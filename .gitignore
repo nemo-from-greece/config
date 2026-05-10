@@ -15,10 +15,8 @@ mozilla/**
 noctalia/plugins/**
 noctalia/colors.json
 noctalia/plugins.json
-nvim/*
 gh/**
 obsidian/**
-nvim/lua/config/**
 pulse/**
 user-dirs.dirs
 user-dirs.locale
