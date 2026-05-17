@@ -1,3 +1,9 @@
-background #101923
-foreground #ebe1d9
+# background #101923
+# foreground #ebe1d9
 background_opacity 0.5
+background_blur 1
+
+# BEGIN_KITTY_THEME
+# Noctalia
+include current-theme.conf
+# END_KITTY_THEME

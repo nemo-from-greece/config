@@ -1,0 +1,9 @@
+[advancedColorSelector]
+customSelectorBackgroundColor=160,160,164
+gamma=2.2
+lastUsedColorsPerDocument=false
+lumaG=0.7152
+lumaR=0.2126
+minimalShadeSelectorLineConfig=0|0.2|0|0|0|0|0;1|0|1|1|0|0|0;2|0|-1|1|0|0|0
+showColorSelector=true
+useCustomColorForBackground=false
