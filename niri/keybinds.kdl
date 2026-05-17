@@ -1,11 +1,11 @@
 binds {
-  // Apps
-  Mod+Return { spawn "kitty"; }
-  Mod+E { spawn "nautilus"; }
-  Mod+W { spawn-sh "zen-browser --blank-window"; }
-  Mod+V { spawn "virtualbox"; }
+  // #"Apps"
+  Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+  Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
+  Mod+W hotkey-overlay-title="Open Browser" { spawn-sh "zen-browser --blank-window"; }
+  Mod+V hotkey-overlay-title="Open VBox" { spawn "virtualbox"; }
 
-  // Noctalia
+  // #"Noctalia"
   Mod+Space { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
   Mod+S { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
   Mod+Comma { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
@@ -13,14 +13,17 @@ binds {
   Mod+Shift+Q { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
 
-  // Window management
+  // #"Window management"
   Mod+Q { close-window; }
   Mod+F { maximize-column; }
   Mod+M { fullscreen-window; }
   Mod+Minus { set-column-width "-10%"; }
   Mod+Equal { set-column-width "+10%"; }
 
-  // Navigation
+  Mod+Alt+H { consume-or-expel-window-left; }
+  Mod+Alt+L { consume-or-expel-window-right; }
+
+  // #"Navigation"
   Mod+H { focus-column-left; }
   Mod+L { focus-column-right; }
   Mod+J { focus-workspace-down; }
@@ -33,25 +36,21 @@ binds {
   Mod+Shift+J { move-window-to-workspace-down; }
   Mod+Shift+K { move-window-to-workspace-up; }
 
-  Mod+Alt+H { consume-or-expel-window-left; }
-  Mod+Alt+L { consume-or-expel-window-right; }
+  // #"Media controls"
+  XF86AudioRaiseVolume  hotkey-overlay-title="Raise Volume" allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+ -l 1.0"; }
+  XF86AudioLowerVolume  hotkey-overlay-title="Lower Volume" allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-"; }
+  XF86AudioMute         hotkey-overlay-title="Mute Audio"   allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
 
-  // Media controls
-  XF86AudioRaiseVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+ -l 1.0"; }
-  XF86AudioLowerVolume  allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-"; }
-  XF86AudioMute         allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-  XF86AudioMicMute      allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+  XF86AudioPlay         hotkey-overlay-title="Play/Pause Track" allow-when-locked=true { spawn-sh "playerctl play-pause"; }
+  XF86AudioPrev         hotkey-overlay-title="Previous Track" allow-when-locked=true { spawn-sh "playerctl previous"; }
+  XF86AudioNext         hotkey-overlay-title="Next Track" allow-when-locked=true { spawn-sh "playerctl next"; }
 
-  XF86AudioPlay         allow-when-locked=true { spawn-sh "playerctl play-pause"; }
-  XF86AudioStop         allow-when-locked=true { spawn-sh "playerctl stop"; }
-  XF86AudioPrev         allow-when-locked=true { spawn-sh "playerctl previous"; }
-  XF86AudioNext         allow-when-locked=true { spawn-sh "playerctl next"; }
+  XF86MonBrightnessUp   hotkey-overlay-title="Raise Screen Brightness" allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
+  XF86MonBrightnessDown hotkey-overlay-title="Lower Screen Brightness" allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
 
-  XF86MonBrightnessUp   allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-  XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
-
-  Print { screenshot; }
-
-  // Misc
+  // #"Misc"
   Mod+Tab { toggle-overview; }
+  Mod+Shift+Slash hotkey-overlay-title="Open Hotkey Cheatsheet" { spawn-sh "qs -c noctalia-shell ipc call plugin:keybind-cheatsheet toggle"; }
+
+  Print hotkey-overlay-title="Take Screenshot" { screenshot; }
 }
