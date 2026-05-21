@@ -3,6 +3,7 @@ binds {
   Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
   Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
   Mod+W hotkey-overlay-title="Open Browser" { spawn-sh "zen-browser --blank-window"; }
+  Mod+O hotkey-overlay-title="Open Obsidian" { spawn "obsidian"; }
   Mod+V hotkey-overlay-title="Open VBox" { spawn "virtualbox"; }
 
   // #"Noctalia"
@@ -20,21 +21,21 @@ binds {
   Mod+Minus { set-column-width "-10%"; }
   Mod+Equal { set-column-width "+10%"; }
 
-  Mod+Alt+H { consume-or-expel-window-left; }
-  Mod+Alt+L { consume-or-expel-window-right; }
-
   // #"Navigation"
   Mod+H { focus-column-left; }
   Mod+L { focus-column-right; }
   Mod+J { focus-workspace-down; }
   Mod+K { focus-workspace-up; }
   Mod+Alt+J { focus-window-down; }
-  Mod+Alt+K { focus-window-up;}
+  Mod+Alt+K { focus-window-up; }
 
   Mod+Shift+H { move-column-left; }
   Mod+Shift+L { move-column-right; }
   Mod+Shift+J { move-window-to-workspace-down; }
   Mod+Shift+K { move-window-to-workspace-up; }
+
+  Mod+Alt+H { consume-or-expel-window-left; }
+  Mod+Alt+L { consume-or-expel-window-right; }
 
   // #"Media controls"
   XF86AudioRaiseVolume  hotkey-overlay-title="Raise Volume" allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+ -l 1.0"; }
