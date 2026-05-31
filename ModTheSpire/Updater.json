@@ -1,0 +1,82 @@
+{
+  "https://api.github.com/repos/kiooeht/ModTheSpire/releases/latest": {
+    "lastModified": "Tue, 08 Jan 2019 23:23:17 GMT",
+    "releaseInfo": {
+      "url": "https://api.github.com/repos/kiooeht/ModTheSpire/releases/14530462",
+      "assets_url": "https://api.github.com/repos/kiooeht/ModTheSpire/releases/14530462/assets",
+      "upload_url": "https://uploads.github.com/repos/kiooeht/ModTheSpire/releases/14530462/assets{?name,label}",
+      "html_url": "https://github.com/kiooeht/ModTheSpire/releases/tag/v3.6.3",
+      "id": 14530462,
+      "author": {
+        "login": "kiooeht",
+        "id": 236842,
+        "node_id": "MDQ6VXNlcjIzNjg0Mg\u003d\u003d",
+        "avatar_url": "https://avatars.githubusercontent.com/u/236842?v\u003d4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kiooeht",
+        "html_url": "https://github.com/kiooeht",
+        "followers_url": "https://api.github.com/users/kiooeht/followers",
+        "following_url": "https://api.github.com/users/kiooeht/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kiooeht/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kiooeht/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kiooeht/subscriptions",
+        "organizations_url": "https://api.github.com/users/kiooeht/orgs",
+        "repos_url": "https://api.github.com/users/kiooeht/repos",
+        "events_url": "https://api.github.com/users/kiooeht/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kiooeht/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "MDc6UmVsZWFzZTE0NTMwNDYy",
+      "tag_name": "v3.6.3",
+      "target_commitish": "master",
+      "name": "v3.6.3",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2018-12-14T03:38:21Z",
+      "updated_at": "2019-01-08T23:23:17Z",
+      "published_at": "2018-12-14T03:45:30Z",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/kiooeht/ModTheSpire/releases/assets/10146553",
+          "id": 10146553,
+          "node_id": "MDEyOlJlbGVhc2VBc3NldDEwMTQ2NTUz",
+          "name": "ModTheSpire.zip",
+          "uploader": {
+            "login": "kiooeht",
+            "id": 236842,
+            "node_id": "MDQ6VXNlcjIzNjg0Mg\u003d\u003d",
+            "avatar_url": "https://avatars.githubusercontent.com/u/236842?v\u003d4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kiooeht",
+            "html_url": "https://github.com/kiooeht",
+            "followers_url": "https://api.github.com/users/kiooeht/followers",
+            "following_url": "https://api.github.com/users/kiooeht/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kiooeht/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kiooeht/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kiooeht/subscriptions",
+            "organizations_url": "https://api.github.com/users/kiooeht/orgs",
+            "repos_url": "https://api.github.com/users/kiooeht/repos",
+            "events_url": "https://api.github.com/users/kiooeht/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kiooeht/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 1267835,
+          "download_count": 83247,
+          "created_at": "2018-12-14T03:39:59Z",
+          "updated_at": "2018-12-14T03:40:01Z",
+          "browser_download_url": "https://github.com/kiooeht/ModTheSpire/releases/download/v3.6.3/ModTheSpire.zip"
+        }
+      ],
+      "tarball_url": "https://api.github.com/repos/kiooeht/ModTheSpire/tarball/v3.6.3",
+      "zipball_url": "https://api.github.com/repos/kiooeht/ModTheSpire/zipball/v3.6.3",
+      "body": "# ALL FUTURE UPDATES ARE AVAILBLE VIA THE STEAM WORKSHOP #\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id\u003d1605060445\r\n\r\n---\r\n\r\n\r\nPatch Notes:\r\n* Reroll to avoid duplicate SpireField names"
+    }
+  }
+}

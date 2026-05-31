@@ -1,0 +1,49 @@
+[
+  {
+    "title": "??/?????? infoMod2--Card/Potion Chance Tracking",
+    "id": "bab7ed7c",
+    "installPath": "/home/cachy/.local/share/Steam/steamapps/workshop/content/646570/3132616060",
+    "timeUpdated": 1704514042,
+    "tags": [
+      "utility",
+      "qol",
+      "english",
+      "simplified chinese"
+    ]
+  },
+  {
+    "title": "BaseMod",
+    "id": "5fb7113b",
+    "installPath": "/home/cachy/.local/share/Steam/steamapps/workshop/content/646570/1605833019",
+    "timeUpdated": 1755743354,
+    "tags": [
+      "api"
+    ]
+  },
+  {
+    "title": "Bestiary",
+    "id": "88410fd5",
+    "installPath": "/home/cachy/.local/share/Steam/steamapps/workshop/content/646570/2285965269",
+    "timeUpdated": 1605321710,
+    "tags": [
+      "utility",
+      "monsters",
+      "qol"
+    ]
+  },
+  {
+    "title": "Map Marks",
+    "id": "aefef1b7",
+    "installPath": "/home/cachy/.local/share/Steam/steamapps/workshop/content/646570/2935943607",
+    "timeUpdated": 1759435111,
+    "tags": [
+      "utility",
+      "qol",
+      "korean",
+      "japanese",
+      "thai",
+      "simplified chinese",
+      "vietnamese"
+    ]
+  }
+]

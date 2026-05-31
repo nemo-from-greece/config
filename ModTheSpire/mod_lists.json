@@ -1,0 +1,11 @@
+{
+  "defaultList": "\u003cDefault\u003e",
+  "lists": {
+    "\u003cDefault\u003e": [
+      "BaseMod.jar",
+      "Bestiary.jar",
+      "InfoMod2.jar",
+      "MapMarks.jar"
+    ]
+  }
+}
