@@ -12,6 +12,8 @@ binds {
   Mod+Comma { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
   Mod+Ctrl+L { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
   Mod+Shift+Q { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+  Mod+N { spawn-sh "qs -c noctalia-shell ipc call notifications toggleHistory"; }
+  Mod+Shift+N { spawn-sh "qs -c noctalia-shell ipc call notifications clear"; }
 
 
   // #"Window management"
