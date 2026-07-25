@@ -47,3 +47,16 @@ window-rule {
   match app-id="^steam_app_"
   open-fullscreen true
 }
+
+window-rule {
+  match app-id="mpv$"
+  opacity 1.0
+  open-floating true
+  max-height 270
+  max-width 480
+}
+
+window-rule {
+  match title="Forge:*"
+  open-fullscreen true
+}
