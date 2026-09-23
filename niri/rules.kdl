@@ -52,11 +52,9 @@ window-rule {
   match app-id="mpv$"
   opacity 1.0
   open-floating true
-  max-height 270
-  max-width 480
 }
 
 window-rule {
-  match title="Forge:*"
+  match title="Forge: *SNAPSHOT*"
   open-fullscreen true
 }

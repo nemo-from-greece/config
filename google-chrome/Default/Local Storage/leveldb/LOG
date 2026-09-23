@@ -1,0 +1,9 @@
+2026/09/03-14:34:25.704 5 Reusing MANIFEST /home/cachy/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/03-14:34:25.714 5 Recovering log #7
+2026/09/03-14:34:25.715 5 Reusing old log /home/cachy/.config/google-chrome/Default/Local Storage/leveldb/000007.log 
+2026/09/03-14:42:26.481 9 Level-0 table #11: started
+2026/09/03-14:42:26.486 9 Level-0 table #11: 29296 bytes OK
+2026/09/03-14:42:26.489 9 Delete type=0 #7
+2026/09/03-14:57:59.743 9 Level-0 table #13: started
+2026/09/03-14:57:59.748 9 Level-0 table #13: 29144 bytes OK
+2026/09/03-14:57:59.751 9 Delete type=0 #10
