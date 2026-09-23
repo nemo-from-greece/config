@@ -1,18 +1,13 @@
-alacritty/**
 autostart/**
 btop/**
 cava/**
 QtProject.conf
-config1/**
 dconf/**
 gtk-3.0/**
 gtk-4.0/**
 libreoffice/**
 mimeapps.list
 mozilla/**
-noctalia/plugins/**
-noctalia/colors.json
-noctalia/plugins.json
 gh/**
 MusicBrainz/**
 obsidian/**
@@ -24,4 +19,6 @@ VirtualBox/**
 nautilus/**
 MTGProxyPrinter/**
 ModTheSpire/**
+yt-x/**
+mpv/**
 
