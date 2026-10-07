@@ -1,0 +1,81 @@
+###############################################################################
+#                           Noctalia theme for superfile                       #
+#                                                                             #
+# Renders against the active Noctalia palette. Key names follow the upstream  #
+# theme schema (https://superfile.dev/configure/custom-theme/).                #
+###############################################################################
+
+###############################################################################
+#                           Code Syntax Highlighting                          #
+###############################################################################
+
+# Chroma style name; users can override in their superfile config.toml.
+code_syntax_highlight = "catppuccin"
+
+###############################################################################
+#                                 Base Colors                                 #
+###############################################################################
+
+#-- Full Screen
+full_screen_fg = "#ebe1d9"
+full_screen_bg = "#101923"
+
+#-- Gradient (two-color)
+gradient_color = ["#ffb962", "#86a9d5"]
+directory_icon_color = "#ffb962"
+
+#-- File Panel
+file_panel_fg = "#ebe1d9"
+file_panel_bg = "#101923"
+file_panel_border = "#436792"
+file_panel_border_active = "#ffb962"
+file_panel_top_directory_icon = "#ffb962"
+file_panel_top_path = "#ffb962"
+# Selection distinguishes the foreground only, keeping the surface uniform
+# with the regular row. Mirrors the upstream catppuccin-mocha theme, where
+# `file_panel_item_selected_fg` differs from `file_panel_fg` while sharing
+# the same background — a subtler highlight than changing the row surface.
+file_panel_item_selected_fg = "#ffb962"
+file_panel_item_selected_bg = "#101923"
+
+#-- Footer
+footer_fg = "#c7d0db"
+footer_bg = "#101923"
+footer_border = "#436792"
+footer_border_active = "#ffb962"
+
+#-- Sidebar
+# Same background as file_panel and footer (uniform panel surface). Visual
+# separation is carried by the borders (`outline` inactive / `tertiary`
+# active). The current-directory entry uses the primary accent for its
+# foreground while keeping the surface uniform with the rest of the row,
+# mirroring the file-panel selection style and the upstream catppuccin-mocha
+# convention (distinguish fg only).
+sidebar_fg = "#ebe1d9"
+sidebar_bg = "#101923"
+sidebar_title = "#ffb962"
+sidebar_border = "#436792"
+sidebar_border_active = "#86a9d5"
+sidebar_item_selected_fg = "#ffb962"
+sidebar_item_selected_bg = "#101923"
+sidebar_divider = "#2b425e"
+
+#-- Modals
+modal_fg = "#ebe1d9"
+modal_bg = "#101923"
+modal_border_active = "#ffb962"
+modal_cancel_fg = "#280908"
+modal_cancel_bg = "#f71b00"
+modal_confirm_fg = "#472a00"
+modal_confirm_bg = "#ffb962"
+
+#-- Help Menu
+help_menu_hotkey = "#86a9d5"
+help_menu_title = "#ffb962"
+
+#-- Special
+cursor = "#ffb962"
+correct = "#86a9d5"
+error = "#ffb4ab"
+hint = "#dfc1a2"
+cancel = "#f71b00"
