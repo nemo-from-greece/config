@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px" />
+       unit="mm" />
     <eventcontext
        id="text"
        usecurrent="1"
@@ -991,7 +991,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000;text-orientation:auto;font-size:20px;-inkscape-font-specification:'JetBrainsMonoNL Nerd Font Mono';font-family:'JetBrainsMonoNL Nerd Font Mono';stroke-width:1.0015748;stroke:#000000;line-height:0.9">
+     style="fill:none;text-orientation:auto;font-size:20px;-inkscape-font-specification:'JetBrainsMonoNL Nerd Font Mono';font-family:'JetBrainsMonoNL Nerd Font Mono';stroke-width:1.0015748;stroke:#000000;line-height:0.9">
     <group
        width="932"
        height="1068"
