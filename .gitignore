@@ -21,4 +21,4 @@ yt-x/**
 GIMP/**
 inkscape/**
 vesktop/**
-!vesktop/settings/**
+# !vesktop/settings/**
