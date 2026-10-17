@@ -20,4 +20,5 @@ ModTheSpire/**
 yt-x/**
 GIMP/**
 inkscape/**
-
+vesktop/**
+!vesktop/settings/**
