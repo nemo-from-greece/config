@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+
+vim.keymap.set("n", "<Leader>o", "o<Esc>")
+vim.keymap.set("n", "<Leader>O", "O<Esc>")

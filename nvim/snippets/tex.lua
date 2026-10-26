@@ -69,7 +69,7 @@ add(s(auto("dm", { condition = txt, wordTrig = true }), { t({ "$$", "" }), i(1),
 -- the f() mirrors whatever you type for the env name into \end{...}
 add(s(
   auto("beg"),
-  fmta("\\begin{<>}\n\t<>\n\\end{<>}", { i(1), i(0), f(function(a)
+  fmta("\\begin{<>}\n<>\n\\end{<>}", { i(1), i(0), f(function(a)
     return a[1]
   end, { 1 }) })
 ))
@@ -87,6 +87,7 @@ add(s(
 \usepackage{pgfplots, pgfplotstable}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage[letterpaper, margin=1in]{geometry}
 \pgfplotsset{compat=1.18}
 
 \begin{document}
@@ -449,32 +450,6 @@ add(s(auto("Norm", { condition = math, priority = 2000 }), fmta("\\lVert <> \\rV
 add(s(auto("ceil", { condition = math }), fmta("\\lceil <> \\rceil <>", { i(1), i(0) })))
 add(s(auto("floor", { condition = math }), fmta("\\lfloor <> \\rfloor <>", { i(1), i(0) })))
 add(s(auto("mod", { condition = math }), fmta("|<>|<>", { i(1), i(0) })))
-
--- ( [ { : wrap visual selection if there is one, otherwise plain tabstop pair
-add(s(auto("(", { condition = math }), {
-  d(1, function(_, parent)
-    if #parent.snippet.env.LS_SELECT_RAW > 0 then
-      return sn(nil, fmta("(<>)", { t(parent.snippet.env.LS_SELECT_RAW) }))
-    end
-    return sn(nil, fmta("(<>)<>", { i(1), i(0) }))
-  end, {}),
-}))
-add(s(auto("[", { condition = math }), {
-  d(1, function(_, parent)
-    if #parent.snippet.env.LS_SELECT_RAW > 0 then
-      return sn(nil, fmta("[<>]", { t(parent.snippet.env.LS_SELECT_RAW) }))
-    end
-    return sn(nil, fmta("[<>]<>", { i(1), i(0) }))
-  end, {}),
-}))
-add(s(auto("{", { condition = math }), {
-  d(1, function(_, parent)
-    if #parent.snippet.env.LS_SELECT_RAW > 0 then
-      return sn(nil, fmta("{<>}", { t(parent.snippet.env.LS_SELECT_RAW) }))
-    end
-    return sn(nil, fmta("{<>}<>", { i(1), i(0) }))
-  end, {}),
-}))
 
 add(s(auto("lr(", { condition = math }), fmta("\\left( <> \\right) <>", { i(1), i(0) })))
 add(s(auto("lr{", { condition = math }), fmta("\\left\\{ <> \\right\\} <>", { i(1), i(0) })))

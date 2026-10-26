@@ -58,7 +58,7 @@ sidebar_border = "#436792"
 sidebar_border_active = "#86a9d5"
 sidebar_item_selected_fg = "#ffb962"
 sidebar_item_selected_bg = "#101923"
-sidebar_divider = "#2b425e"
+sidebar_divider = "#3a5d88"
 
 #-- Modals
 modal_fg = "#ebe1d9"
