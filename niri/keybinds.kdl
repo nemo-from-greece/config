@@ -59,4 +59,7 @@ binds {
   Mod+Shift+Slash hotkey-overlay-title="Open Hotkey Cheatsheet" { spawn-sh "noctalia msg panel-toggle kenn/keybind-cheatsheet:cheatsheet"; }
 
   Print hotkey-overlay-title="Take Screenshot" { screenshot; }
+
+  Mod+WheelScrollDown cooldown-ms=50 { focus-workspace-down; }
+  Mod+WheelScrollUp   cooldown-ms=50 { focus-workspace-up; }
 }

@@ -6,8 +6,8 @@ cava/**
 chromium/**
 dconf/**
 FreeCAD/**
-gh/**
 GIMP/**
+google-chat-linux/**
 gtk-3.0/**
 gtk-4.0/**
 inkscape/**
@@ -27,7 +27,11 @@ vesktop/**
 Vial/**
 yt-x/**
 zen/**
+cahcyos-hello.json
+google-chat-linux.json
+kbackuprc
 mimeapps.list
+pavucontrol.ini
 QtProject.conf
 user-dirs.dirs
 user-dirs.locale
